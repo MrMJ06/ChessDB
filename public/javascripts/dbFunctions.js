@@ -20,7 +20,6 @@ module.exports = {
                 db.close();
             });
         });
-        console.log(obj);
     },
     find: function findOne(obj){
         mongoclient.connect(url, function (err, db) {
